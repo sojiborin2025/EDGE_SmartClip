@@ -16,6 +16,8 @@
 4.  **實時預覽：** 彈窗即時顯示處理對象，確保結果精確無誤。
 <img width="553" height="448" alt="測試階段02" src="https://github.com/user-attachments/assets/f46d851c-019a-497b-a123-bf39fd6e958a" />
 
+### 安裝說明：
+本工具目前採開源分享形式，未上架至應用程式商店。請下載本專案後，開啟 Edge 的「開發者模式」並透過「載入解壓縮的擴充功能」手動安裝。
 ---
 
 # SmartClip
@@ -34,3 +36,6 @@
 2.  **Format Cleaning:** Automatically removes redundant Markdown symbols (##, **, etc.).
 3.  **Wrapping & Conversion:** Quickly add quotes or wrap text into ` ```TXT ``` ` code blocks.
 4.  **Live Preview:** Instantly displays the processing object to ensure accuracy.
+
+**Installation:**
+This tool is currently shared as an open-source project and is not listed on official app stores. To use it, please download this repository, enable "Developer mode" in Edge, and install it manually via the "Load unpacked" option.
