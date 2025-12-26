@@ -14,6 +14,7 @@
 2.  **格式清洗：** 自動移除多餘的 Markdown 符號（##, ** 等）。
 3.  **封裝轉換：** 快速為文字加上引號或封裝為 ` ```TXT ``` ` 代碼塊。
 4.  **實時預覽：** 彈窗即時顯示處理對象，確保結果精確無誤。
+<img width="553" height="448" alt="測試階段02" src="https://github.com/user-attachments/assets/f46d851c-019a-497b-a123-bf39fd6e958a" />
 
 ---
 
@@ -26,6 +27,7 @@
 *   **Smart Extraction:** Precisely captures target IDs like `[SCN-XX-XX]` from messy sentences, eliminating the need for tedious mouse selection.
 *   **Chained Workflow:** Supports "Extract then Transform" logic, allowing complex text processing in a single, fluid session.
 *   **Optimized UX:** Features keyboard shortcuts (Number keys 1-5) and `Space` key for repeating the last action, enabling a high-speed, keyboard-driven experience.
+
 
 ### 🛠️ Functionalities
 1.  **Smart Capture:** One-click extraction of identifiers within the selected range.
