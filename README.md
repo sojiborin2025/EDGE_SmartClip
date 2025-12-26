@@ -14,7 +14,8 @@
 2.  **格式清洗：** 自動移除多餘的 Markdown 符號（##, ** 等）。
 3.  **封裝轉換：** 快速為文字加上引號或封裝為 ` ```TXT ``` ` 代碼塊。
 4.  **實時預覽：** 彈窗即時顯示處理對象，確保結果精確無誤。
-<img width="553" height="448" alt="測試階段02" src="https://github.com/user-attachments/assets/f46d851c-019a-497b-a123-bf39fd6e958a" />
+<img width="595" height="473" alt="image" src="https://github.com/user-attachments/assets/641c908f-eb90-43e3-817c-4508cf0f1fb2" />
+
 
 ### 安裝說明：
 本工具目前採開源分享形式，未上架至應用程式商店。請下載本專案後，開啟 Edge 的「開發者模式」並透過「載入解壓縮的擴充功能」手動安裝。
