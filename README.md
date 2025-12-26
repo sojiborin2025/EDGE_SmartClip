@@ -37,5 +37,5 @@
 3.  **Wrapping & Conversion:** Quickly add quotes or wrap text into ` ```TXT ``` ` code blocks.
 4.  **Live Preview:** Instantly displays the processing object to ensure accuracy.
 
-**Installation:**
+### **Installation:**
 This tool is currently shared as an open-source project and is not listed on official app stores. To use it, please download this repository, enable "Developer mode" in Edge, and install it manually via the "Load unpacked" option.
