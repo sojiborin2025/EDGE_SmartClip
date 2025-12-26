@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Edge 剪貼簿助手",
+  "version": "1.0",
+  "description": "按下 Ctrl+C+C 彈出文字處理選單",
+  "permissions": [
+    "storage",
+    "clipboardWrite"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}

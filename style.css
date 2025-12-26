@@ -1,0 +1,95 @@
+/* 小窗容器 */
+.cb-helper-menu {
+    position: absolute;
+    z-index: 1000000;
+    width: 260px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    animation: fadeIn 0.1s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 預覽區域 */
+.cb-helper-preview {
+    padding: 12px;
+    background: #f8f9fa; /* 淺灰色底 */
+    font-size: 11px;
+    color: #555;
+    border-bottom: 1px solid #eee;
+    white-space: pre-wrap; /* 讓換行能正確顯示 */
+    word-break: break-all;
+    max-height: 80px; /* 限制高度，避免過長 */
+    overflow-y: auto; /* 過長時允許滾動 */
+    line-height: 1.4;
+    cursor: pointer;
+}
+/* 預覽區的一個小標籤 */
+.cb-helper-preview::before {
+    content: "選取內容預覽：";
+    display: block;
+    font-weight: bold;
+    font-size: 10px;
+    color: #999;
+    margin-bottom: 4px;
+    background: #f0f0f0;
+    color: #4285f4;
+}
+
+/* 按鈕樣式 */
+.cb-helper-item {
+    padding: 12px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.cb-helper-item:hover {
+    background-color: #f0f7ff;
+    padding-left: 20px; /* 滑鼠滑過有個位移效果 */
+}
+
+.cb-helper-item:nth-child(2) { /* 這是「僅抓取」按鈕，因為它排在預覽區後第一個 */
+    border-bottom: 2px solid #e8f0fe;
+    color: #4285f4;
+    font-weight: bold;
+}
+
+/* 數字鍵提示圖示 */
+.cb-helper-key {
+    background: #fff;
+    border-radius: 4px;
+    min-width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #4285f4;
+    border: 1px solid #4285f4;
+}
+
+/* 上次操作的特別提示 */
+.cb-helper-last-action {
+    background-color: #fffef0; /* 上次操作背景微黃 */
+}
+
+.cb-helper-last-tag {
+    font-size: 10px;
+    color: #e6a23c;
+    margin-left: auto;
+    font-style: italic;
+}
